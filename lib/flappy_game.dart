@@ -165,7 +165,7 @@ class FlappyGame extends FlameGame with TapDetector {
     score = 0;
   }
 
-  //score
+  //Score
   void drawText(Canvas canvas, String text, double x, double y) {
     final tp = TextPainter(
       text: TextSpan(
